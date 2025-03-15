@@ -10,5 +10,5 @@ const projectSiteSchema = new mongoose.Schema({
   managed_by: { type: Map, of: String }, // Storing as a Map object
 });
 
-const ProjectSite = mongoose.model("ProjectSite", projectSiteSchema);
+const ProjectSite = mongoose.model("ProjectSite", projectSiteSchema,"project_sites");
 export default ProjectSite;

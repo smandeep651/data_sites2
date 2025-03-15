@@ -3,17 +3,18 @@ import ProjectSite from "../models/ProjectSite.js";
 
 const router = express.Router();
 
-// 📌 GET all project sites
+//  GET all project sites
 router.get("/", async (req, res) => {
   try {
     const sites = await ProjectSite.find();
+    console.log("Fetched Sites:", sites);
     res.json(sites);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
 });
 
-// 📌 GET a single site by ID
+//  GET a single site by ID
 router.get("/:id", async (req, res) => {
   try {
     const site = await ProjectSite.findById(req.params.id);
@@ -24,7 +25,7 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-// 📌 POST: Create a new site
+//  POST: Create a new site
 router.post("/", async (req, res) => {
   try {
     const site = new ProjectSite(req.body);
@@ -35,7 +36,7 @@ router.post("/", async (req, res) => {
   }
 });
 
-// 📌 PUT: Update a site by ID
+//  PUT: Update a site by ID
 router.put("/:id", async (req, res) => {
   try {
     const updatedSite = await ProjectSite.findByIdAndUpdate(req.params.id, req.body, { new: true });
@@ -46,7 +47,7 @@ router.put("/:id", async (req, res) => {
   }
 });
 
-// 📌 DELETE: Remove a site
+//  DELETE: Remove a site
 router.delete("/:id", async (req, res) => {
   try {
     const result = await ProjectSite.findByIdAndDelete(req.params.id);
