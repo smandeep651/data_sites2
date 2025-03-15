@@ -19,9 +19,13 @@ mongoose
   
   .then(() => console.log(" Connected to MongoDB"))
   .catch((err) => console.error(" MongoDB connection error:", err));
-  console.log(process.env.MONGO_URI);
+  
 // Routes
-app.use("/api/project_sites", projectSitesRoutes);
+app.use("/api/project_sites", (req, res, next) => {
+  console.log("🔹 API /api/project_sites called");
+  next();
+}, projectSitesRoutes);
+
 
 app.get("/", (req, res) => {
   res.send("Server is running!");
