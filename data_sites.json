@@ -1,0 +1,537 @@
+[
+    {
+      "project_name": "Mills",
+      "city": "Halifax",
+      "general_contractor": "bird",
+      "completion_date": 2025,
+      "status": "in progress",
+      "employees_for_project": [
+        "Mandeep",
+        "Navjot",
+        "Anit"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "No"
+      },
+      "id": "0002"
+    },
+    {
+
+      "project_name": "Harbor Heights",
+      "city": "Dartmouth",
+      "general_contractor": "Pinnacle Group",
+      "completion_date": 2026,
+      "status": "planned",
+      "budget": 7500000,
+      "employees_for_project": [
+        "tj",
+        "evan",
+        "brian"
+      ],
+      "tasks": [
+        "Surveying",
+        "Excavation"
+      ],
+      "managed_by": {
+        "Don": "No",
+        "Nick": "Yes"
+      },
+      "id": "45eb"
+    },
+    {
+
+      "project_name": "Ocean Towers",
+      "city": "Halifax",
+      "general_contractor": "Lindsay",
+      "completion_date": 2024,
+      "status": "completed",
+      "budget": 6200000,
+      "employees_for_project": [
+        "kree",
+        "chris",
+        "arya"
+      ],
+      "tasks": [
+        "Planning",
+        "Foundation",
+        "Roofing"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "Yes"
+      },
+      "id": "b33d"
+    },
+    {
+
+      "project_name": "The Brunello",
+      "city": "Dartmouth",
+      "general_contractor": "Ellis Don",
+      "completion_date": 2026,
+      "status": "completed",
+      "budget": 6200000,
+      "employees_for_project": [
+        "Aman",
+        "Akshat",
+        "Aman"
+      ],
+      "tasks": [
+        "Planning",
+        "Foundation",
+        "Roofing"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "Yes"
+      },
+      "id": "7c6e"
+    },
+    {
+
+      "project_name": "Willet",
+      "city": "Halifax",
+      "general_contractor": "Lindsay",
+      "completion_date": 2026,
+      "status": "in progress",
+      "budget": 6200000,
+      "employees_for_project": [
+        "lak",
+        "jone",
+        "matt"
+      ],
+      "tasks": [
+        "Planning",
+        "Foundation",
+        "Roofing"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "Yes"
+      },
+      "id": "57f9"
+    },
+    {
+
+      "project_name": "River View",
+      "city": "Halifax",
+      "general_contractor": "Lindsay",
+      "completion_date": 2027,
+      "status": "planned",
+      "employees_for_project": [
+        "John",
+        "Sara",
+        "David"
+      ],
+      "tasks": [
+        "Surveying",
+        "Excavation",
+        "Framing"
+      ],
+      "managed_by": {
+        "Don": "No",
+        "Nick": "Yes"
+      },
+      "id": "849e"
+    },
+    {
+
+      "project_name": "West End Residences",
+      "city": "Dartmouth",
+      "general_contractor": "Pinnacle Group",
+      "completion_date": 2026,
+      "status": "in progress",
+      "budget": 8000000,
+      "employees_for_project": [
+        "Megan",
+        "Oliver",
+        "Lucas"
+      ],
+      "tasks": [
+        "Planning",
+        "Foundation",
+        "Excavation"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "No"
+      },
+      "id": "7bad"
+    },
+    {
+
+      "project_name": "Summit Heights",
+      "city": "Halifax",
+      "general_contractor": "Lindsay",
+      "completion_date": 2025,
+      "status": "completed",
+      "budget": 9500000,
+      "employees_for_project": [
+        "Emma",
+        "Noah",
+        "Sophia"
+      ],
+      "tasks": [
+        "Planning",
+        "Excavation",
+        "Roofing"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "Yes"
+      },
+      "id": "6d87"
+    },
+    {
+
+      "project_name": "Northgate Plaza",
+      "city": "Dartmouth",
+      "general_contractor": "Ellis Don",
+      "completion_date": 2027,
+      "status": "in progress",
+      "budget": 7800000,
+      "employees_for_project": [
+        "Liam",
+        "Mia",
+        "Charlotte"
+      ],
+      "tasks": [
+        "Surveying",
+        "Excavation",
+        "Framing"
+      ],
+      "managed_by": {
+        "Don": "No",
+        "Nick": "Yes"
+      },
+      "id": "aa77"
+    },
+    {
+
+      "project_name": "Greenwood Village",
+      "city": "Halifax",
+      "general_contractor": "Pinnacle Group",
+      "completion_date": 2026,
+      "status": "completed",
+      "budget": 6700000,
+      "employees_for_project": [
+        "James",
+        "Chloe",
+        "Lily"
+      ],
+      "tasks": [
+        "Roofing",
+        "Foundation",
+        "Painting"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "Yes"
+      },
+      "id": "2c3c"
+    },
+    {
+
+      "project_name": "Ocean Breeze",
+      "city": "Halifax",
+      "general_contractor": "Lindsay",
+      "completion_date": 2025,
+      "status": "in progress",
+      "employees_for_project": [
+        "Adam",
+        "Ella",
+        "Sophia"
+      ],
+      "tasks": [
+        "Surveying",
+        "Foundation",
+        "Excavation"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "No"
+      },
+      "id": "e45d"
+    },
+    {
+
+      "project_name": "Seaside Retreat",
+      "city": "Dartmouth",
+      "general_contractor": "Ellis Don",
+      "completion_date": 2026,
+      "status": "in progress",
+      "budget": 7000000,
+      "employees_for_project": [
+        "Oliver",
+        "Eva",
+        "Jack"
+      ],
+      "tasks": [
+        "Framing",
+        "Roofing",
+        "Excavation"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "No"
+      },
+      "id": "90b2"
+    },
+    {
+
+      "project_name": "Mountain Peak Residences",
+      "city": "Halifax",
+      "general_contractor": "Lindsay",
+      "completion_date": 2027,
+      "status": "planned",
+      "employees_for_project": [
+        "Olivia",
+        "Amelia",
+        "Ethan"
+      ],
+      "tasks": [
+        "Planning",
+        "Framing",
+        "Roofing"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "Yes"
+      },
+      "id": "97c0"
+    },
+    {
+
+      "project_name": "The Skyline",
+      "city": "Dartmouth",
+      "general_contractor": "Pinnacle Group",
+      "completion_date": 2025,
+      "status": "completed",
+      "employees_for_project": [
+        "Grace",
+        "Henry",
+        "Lucas"
+      ],
+      "tasks": [
+        "Excavation",
+        "Roofing",
+        "Foundation"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "Yes"
+      },
+      "id": "b576"
+    },
+    {
+
+      "project_name": "Harbor View",
+      "city": "Halifax",
+      "general_contractor": "Lindsay",
+      "completion_date": 2026,
+      "status": "planned",
+      "employees_for_project": [
+        "Jackson",
+        "Ava",
+        "Isabella"
+      ],
+      "tasks": [
+        "Surveying",
+        "Framing",
+        "Excavation"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "No"
+      },
+      "id": "5514"
+    },
+    {
+
+      "project_name": "Bright Horizon",
+      "city": "Dartmouth",
+      "general_contractor": "Ellis Don",
+      "completion_date": 2025,
+      "status": "in progress",
+      "budget": 8500000,
+      "employees_for_project": [
+        "Sophia",
+        "Noah",
+        "Liam"
+      ],
+      "tasks": [
+        "Foundation",
+        "Roofing",
+        "Excavation"
+      ],
+      "managed_by": {
+        "Don": "No",
+        "Nick": "Yes"
+      },
+      "id": "21eb"
+    },
+    {
+
+      "project_name": "Bayfront Tower",
+      "city": "Halifax",
+      "general_contractor": "Lindsay",
+      "completion_date": 2027,
+      "status": "planned",
+      "employees_for_project": [
+        "Charlotte",
+        "Mason",
+        "Amelia"
+      ],
+      "tasks": [
+        "Surveying",
+        "Excavation",
+        "Framing"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "No"
+      },
+      "id": "7b43"
+    },
+    {
+
+      "project_name": "Seaside View Apartments",
+      "city": "Dartmouth",
+      "general_contractor": "Pinnacle Group",
+      "completion_date": 2026,
+      "status": "completed",
+      "budget": 9500000,
+      "employees_for_project": [
+        "Jack",
+        "Emma",
+        "Mason"
+      ],
+      "tasks": [
+        "Foundation",
+        "Framing",
+        "Roofing"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "Yes"
+      },
+      "id": "3009"
+    },
+    {
+
+      "project_name": "Skyline Heights",
+      "city": "Halifax",
+      "general_contractor": "Ellis Don",
+      "completion_date": 2026,
+      "status": "in progress",
+      "budget": 6000000,
+      "employees_for_project": [
+        "Ethan",
+        "Harper",
+        "James"
+      ],
+      "tasks": [
+        "Excavation",
+        "Roofing",
+        "Foundation"
+      ],
+      "managed_by": {
+        "Don": "No",
+        "Nick": "Yes"
+      },
+      "id": "9aea"
+    },
+    {
+ 
+      "project_name": "Riverfront Condos",
+      "city": "Dartmouth",
+      "general_contractor": "Lindsay",
+      "completion_date": 2025,
+      "status": "completed",
+      "employees_for_project": [
+        "Amelia",
+        "Benjamin",
+        "Chloe"
+      ],
+      "tasks": [
+        "Framing",
+        "Foundation",
+        "Roofing"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "No"
+      },
+      "id": "83fb"
+    },
+    {
+
+      "project_name": "Lakeside Retreat",
+      "city": "Halifax",
+      "general_contractor": "Pinnacle Group",
+      "completion_date": 2026,
+      "status": "planned",
+      "employees_for_project": [
+        "Olivia",
+        "Lucas",
+        "Aiden"
+      ],
+      "tasks": [
+        "Surveying",
+        "Excavation",
+        "Roofing"
+      ],
+      "managed_by": {
+        "Don": "No",
+        "Nick": "Yes"
+      },
+      "id": "1b91"
+    },
+    {
+
+      "project_name": "Starlight Towers",
+      "city": "Dartmouth",
+      "general_contractor": "Ellis Don",
+      "completion_date": 2026,
+      "status": "in progress",
+      "budget": 7000000,
+      "employees_for_project": [
+        "Mia",
+        "Benjamin",
+        "Lucas"
+      ],
+      "tasks": [
+        "Planning",
+        "Framing",
+        "Roofing"
+      ],
+      "managed_by": {
+        "Don": "Yes",
+        "Nick": "Yes"
+      },
+      "id": "ece9"
+    },
+    {
+
+      "project_name": "Harborfront Residences",
+      "city": "Halifax",
+      "general_contractor": "Lindsay",
+      "completion_date": 2027,
+      "status": "in progress",
+      "employees_for_project": [
+        "Zoe",
+        "Mason",
+        "Eli"
+      ],
+      "tasks": [
+        "Surveying",
+        "Excavation",
+        "Foundation"
+      ],
+      "managed_by": {
+        "Don": "No",
+        "Nick": "Yes"
+      },
+      "id": "efb4"
+    }
+]
