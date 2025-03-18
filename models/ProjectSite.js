@@ -4,12 +4,11 @@ const projectSiteSchema = new mongoose.Schema({
   project_name: { type: String, required: true },
   city: { type: String, required: true },
   general_contractor: { type: String, required: true },
-  completion_date: { type: Date, required: true },  // Changed to Date type
+  completion_date: { type: Number, required: true },
   status: { type: String, required: true },
   employees_for_project: [{ type: String }],
   managed_by: { type: Map, of: String }, // Storing as a Map object
 });
 
-const ProjectSite = mongoose.model("ProjectSite", projectSiteSchema, "project_sites");
-
+const ProjectSite = mongoose.model("ProjectSite", projectSiteSchema,"project_sites");
 export default ProjectSite;
